@@ -8,14 +8,14 @@ export const Banner = () => {
     
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Software Engineer", "UI/UX Designer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
 
     useEffect(() => {
         let ticker = setInterval(() => {
-            ticker();
+            tick();
         },delta)
 
         return () => {clearInterval(ticker)};
@@ -49,13 +49,13 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{'Hi, Im Malcolm Breckenridge'}<span className="wrap">{text}</span></h1>
+                        <h1>{'Hi, Im Malcolm Breckenridge '}<span className="wrap">{text}</span></h1>
                         <p> 
                             Highly motivated and enthusiastic software engineer with a background in Computer Science 
                             looking to utilize my coding skills to create meaningful software applications. Offering 
                             expertise in Java, HTML, C++, Node.js, JavaScript, and SQL databases. 
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's Connect</button>
+                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
