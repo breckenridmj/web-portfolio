@@ -29,17 +29,18 @@ export const Skills = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="skills" id="skills">
             <Container>
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>Skills</h2>
-                            <p> jdlajfldasjdfladjfladjlfajald</p>
+                            <h1>Skills</h1>
+                            <h3> "I offer a diverse skill set in many different areas of computer science"</h3>
+                            <br/>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>Software Applications</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image" />
@@ -47,11 +48,11 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>Database</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>Design</h5>
                                 </div>
                             </Carousel>
 
@@ -59,7 +60,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp}/>
+            <img className="background-image-left" src={colorSharp} />
         </section>
     )
 
