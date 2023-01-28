@@ -37,6 +37,7 @@ export const NavBar = () => {
 
         // copied bootstrap component 
         // SHIFT+ALT+F (auto-formats)
+        // className based on what condition the scroll is (if its scrolled name it scrolled if its not leave it blank)
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
 
             //The container classes are flexbox classes that allow you to create a grid system.
