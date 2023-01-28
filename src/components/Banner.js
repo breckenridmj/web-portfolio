@@ -5,7 +5,7 @@ import TrackVisibility from "react-on-screen";
 import HeaderImg from "../assets/img/header-img.svg";
 
 import 'animate.css';
-import TrackVisibility from "react-on-screen";
+
 
 
 export const Banner = () => {
