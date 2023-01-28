@@ -1,5 +1,6 @@
 //create useState Hook allows us to change the value and update it on the render
-import {useState} from "react";
+//added useEffect Hook
+import {useState, useEffect} from "react";
 
 // import Navbar and and container from react bootstrap
 // link to navbar component for bootstrap https://react-bootstrap.github.io/components/navbar/
@@ -12,18 +13,22 @@ export const NavBar = () => {
     //UseState hook: keeps information on whether user has scrolled
     const {scrolled, seSecrolled} = useState(false);
 
-    // function that
+    // useEffect determines if page is crolled or not
     useEffect(() => {
         const onScroll = () => {
+            //if height is scrolled more than 50 set scrolled to true
             if (window.scrollY > 50) {
                 seSecrolled(true);
+            //if user scrolled back or hasn't scrolled set scrolled to false
             } else {
                 seSecrolled(false);
             }
         }
-
+        
+        // added window Event Listener that only gets fired on scroll then function that determines what happens on scroll
         window.addEventListener("scroll", onScroll);
 
+        // remove it when component gets removed from the dom
         return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
