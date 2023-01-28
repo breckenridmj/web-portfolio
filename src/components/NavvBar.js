@@ -55,6 +55,9 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     //Navbar links
                     <Nav className="me-auto">
+                        // class name is set to active navbar-link when active link is equal to "home" & if its not set to just navbar-link 
+                        // onClick function updates the name of the link to "home" 
+                        // same goes for each link 
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}> Home </Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}> Skills </Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}> Projects </Nav.Link>
