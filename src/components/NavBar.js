@@ -61,7 +61,7 @@ export const NavBar = () => {
             <Container>
                 <Navbar.Brand href="#home">
                     //image
-                    <img src={''} alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </Navbar.Brand>
                 
                 //img on mobile menu is minimized
@@ -83,9 +83,9 @@ export const NavBar = () => {
                     //Social Icons
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={} alt="" /></a>
-                            <a href="#"><img src={} alt="" /></a>
-                            <a href="#"><img src={} alt="" /></a>
+                            <a href="#"><img src={navIcon1} alt="" /></a>
+                            <a href="#"><img src={navIcon2} alt="" /></a>
+                            <a href="#"><img src={navIcon3} alt="" /></a>
                         </div>
 
                         //button that for the contact form
