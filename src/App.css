@@ -159,7 +159,7 @@ span.navbar-text {
   padding: 5px 34px;
   font-size: 18px;
   margin-left: 18px;
-  border-radius: 87px;
+  border-radius: 50px;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
@@ -169,7 +169,7 @@ span.navbar-text {
 }
 .navbar-text button::before {
   content: "";
-  width: 0%;
+  border-radius: 87px;
   height: 100%;
   position: absolute;
   background-color: #fff;
