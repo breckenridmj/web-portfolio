@@ -9,13 +9,30 @@ import { Navbar, Container } from "react-bootstrap";
 export const NavBar = () => {
     //UseState hook 
     const [activeLink, setActiveLink] = useState('home');
+    //
+    const {scrolled, seSecrolled} = useState(false);
+
+    // function that
+    useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 50) {
+                seSecrolled(true);
+            } else {
+                seSecrolled(false);
+            }
+        }
+
+        window.addEventListener("scroll", onScroll);
+
+        return () => window.removeEventListener("scroll", onScroll);
+    }, [])
 
     //returning functional component
     return (
 
         // copied bootstrap component 
         // SHIFT+ALT+F (auto-formats)
-        <Navbar expand="lg">
+        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
 
             //The container classes are flexbox classes that allow you to create a grid system.
             <Container>
