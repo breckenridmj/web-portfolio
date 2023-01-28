@@ -7,9 +7,9 @@ import { Navbar, Container } from "react-bootstrap";
 
 //created a functional component
 export const NavBar = () => {
-    //UseState hook 
+    //UseState hook: changes state depending on active link
     const [activeLink, setActiveLink] = useState('home');
-    //
+    //UseState hook: keeps information on whether user has scrolled
     const {scrolled, seSecrolled} = useState(false);
 
     // function that
