@@ -6,6 +6,18 @@ import {useState, useEffect} from "react";
 // link to navbar component for bootstrap https://react-bootstrap.github.io/components/navbar/
 import { Navbar, Container } from "react-bootstrap";
 
+// import logo from assets folder
+import logo from '../assets/img/logo.svg';
+// import nav icons from assets folder
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
+
+
+
+
+
+
 //created a functional component
 export const NavBar = () => {
     //UseState hook: changes state depending on active link
