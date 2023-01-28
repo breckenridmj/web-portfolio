@@ -1,7 +1,11 @@
 import {useState, useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import HeaderImg from "../assets/img/header-img.svg"
+import TrackVisibility from "react-on-screen";
+import HeaderImg from "../assets/img/header-img.svg";
+
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 
 export const Banner = () => {
@@ -48,14 +52,18 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{'Hi, Im Malcolm Breckenridge '}<br></br><span className="wrap">{text}</span></h1>
-                        <p> 
-                            Highly motivated and enthusiastic software engineer with a background in Computer Science 
-                            looking to utilize my coding skills to create meaningful software applications. Offering 
-                            expertise in Java, HTML, C++, Node.js, JavaScript, and SQL databases. 
-                        </p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        <TrackVisibility>
+                            <div className={isVisible}>
+                                <span className="tagline">Welcome to my Portfolio</span>
+                                <h1>{'Hi, Im Malcolm Breckenridge '}<br></br><span className="wrap">{text}</span></h1>
+                                <p> 
+                                    Highly motivated and enthusiastic software engineer with a background in Computer Science 
+                                    looking to utilize my coding skills to create meaningful software applications. Offering 
+                                    expertise in Java, HTML, C++, Node.js, JavaScript, and SQL databases. 
+                                </p>
+                                <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                            </div>
+                        </TrackVisibility>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
