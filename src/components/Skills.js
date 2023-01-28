@@ -29,11 +29,14 @@ export const Skills => () => {
             <Container>
                 <Row>
                     <Col>
-                    
+                        <div className="skill-bx">
+                            <h2>Skills</h2>
+                            <p> jdlajfldasjdfladjfladjlfajald</p>
+
+                        </div>
                     </Col>
                 </Row>
             </Container>
-
         </section>
     )
 
