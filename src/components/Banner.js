@@ -49,12 +49,11 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{'Hi Im webdecoded'}<span className="wrap">{text}</span></h1>
+                        <h1>{'Hi, Im Malcolm Breckenridge'}<span className="wrap">{text}</span></h1>
                         <p> 
-                            Highly motivated and enthusiastic software engineer with a background in Mechanical 
-                            Engineering and Computer Science looking to utilize my coding skills to create 
-                            meaningful software applications. Offering expertise in Java, HTML, C++, Node.js, 
-                            JavaScript, and SQL databases. 
+                            Highly motivated and enthusiastic software engineer with a background in Computer Science 
+                            looking to utilize my coding skills to create meaningful software applications. Offering 
+                            expertise in Java, HTML, C++, Node.js, JavaScript, and SQL databases. 
                         </p>
                         <button onClick={() => console.log('connect')}>Let's Connect</button>
                     </Col>
