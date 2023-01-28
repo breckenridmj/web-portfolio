@@ -1,3 +1,5 @@
+//create useState Hook allows us to change the value and update it on the render
+import {useState} from "react";
 
 // import Navbar and and container from react bootstrap
 // link to navbar component for bootstrap https://react-bootstrap.github.io/components/navbar/
@@ -5,6 +7,8 @@ import { Navbar, Container } from "react-bootstrap";
 
 //created a functional component
 export const NavBar = () => {
+    //UseState hook 
+    const [activeLink, setActiveLink] = useState('home');
 
     //returning functional component
     return (
