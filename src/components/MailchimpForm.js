@@ -19,5 +19,3 @@ export const MailchimpForm = () => {
     </>
   )
 }
-<input type="hidden" name="u" value="5a816eacb891b27d87d881d4f"></input>
-<input type="hidden" name="id" value="3446f6dc75"></input>
