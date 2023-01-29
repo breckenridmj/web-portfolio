@@ -96,7 +96,7 @@ export const NavBar = () => {
                             </div>
 
                             {/*button that for the contact form*/}
-                            <HashLink to='#contact'>
+                            <HashLink to='#connect'>
                                 <button className="vvd"><span>Let’s Connect</span></button>
                             </HashLink>
                         </span>
