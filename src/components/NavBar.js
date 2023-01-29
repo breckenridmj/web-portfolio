@@ -1,5 +1,6 @@
 //create useState Hook allows us to change the value and update it on the render
 //added useEffect Hook
+import { Router } from "express";
 import {useState, useEffect} from "react";
 
 // import Navbar and and container from react bootstrap
@@ -13,7 +14,8 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
-
+import { HashLink } from 'react-router-hash-link';
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 
@@ -51,6 +53,8 @@ export const NavBar = () => {
 
     //returning functional component
     return (
+
+        <Router>
 
         // copied bootstrap component 
         // SHIFT+ALT+F (auto-formats)
@@ -91,13 +95,14 @@ export const NavBar = () => {
                         </div>
 
                         {/*button that for the contact form*/}
-                        <button className="vvd" onClick={() => console.log('connect')}>
-                            <span> Let's Connect</span>
-                        </button>
+                        <HashLink to='#connect'>
+                            <button className="vvd"><span>Let’s Connect</span></button>
+                        </HashLink>
                     </span>
 
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </Router>
     )
 }
