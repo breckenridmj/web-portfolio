@@ -4,7 +4,7 @@ import {useState, useEffect} from "react";
 
 // import Navbar and and container from react bootstrap
 // link to navbar component for bootstrap https://react-bootstrap.github.io/components/navbar/
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 // import logo from assets folder
 import logo from '../assets/img/Dev_logo.png';
@@ -23,7 +23,7 @@ export const NavBar = () => {
     //UseState hook: changes state depending on active link
     const [activeLink, setActiveLink] = useState('home');
     //UseState hook: keeps information on whether user has scrolled
-    const {scrolled, setSecrolled} = useState(false);
+    const [scrolled, setSecrolled] = useState(false);
 
     // useEffect determines if page is crolled or not
     useEffect(() => {
