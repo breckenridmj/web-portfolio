@@ -23,17 +23,17 @@ export const NavBar = () => {
     //UseState hook: changes state depending on active link
     const [activeLink, setActiveLink] = useState('home');
     //UseState hook: keeps information on whether user has scrolled
-    const {scrolled, seSecrolled} = useState(false);
+    const {scrolled, setSecrolled} = useState(false);
 
     // useEffect determines if page is crolled or not
     useEffect(() => {
         const onScroll = () => {
             //if height is scrolled more than 50 set scrolled to true
             if (window.scrollY > 50) {
-                seSecrolled(true);
+                setSecrolled(true);
             //if user scrolled back or hasn't scrolled set scrolled to false
             } else {
-                seSecrolled(false);
+                setSecrolled(false);
             }
         }
         
@@ -55,7 +55,7 @@ export const NavBar = () => {
         // copied bootstrap component 
         // SHIFT+ALT+F (auto-formats)
         // className based on what condition the scroll is (if its scrolled name it scrolled if its not leave it blank)
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar expand="md" className={scrolled ? "scrolled": ""}>
 
             {/*The container classes are flexbox classes that allow you to create a grid system.*/}
             <Container>
