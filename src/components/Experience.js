@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Experience = () => {
     return (
        
-        <section class="experience">
+        <section class="experience" id="experience">
             <h2>Work Experience</h2>
           <ul class="timeline">
             <li class="timeline-item mb-5">
