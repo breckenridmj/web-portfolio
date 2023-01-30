@@ -471,11 +471,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Experience Css ************/
+.experience h2 {
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  padding-top: 60px;
+}
+
 .timeline {
-  border-left: 1px solid hsl(0, 0%, 90%);
+  border-left: 4px solid hsl(0, 0%, 90%);
   position: relative;
   list-style: none;
   align-items: center;
+  margin-top: 50px;
+  margin-left: 500px;
 }
 
 .timeline .timeline-item {

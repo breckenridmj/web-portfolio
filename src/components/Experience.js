@@ -6,8 +6,8 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Experience = () => {
     return (
        
-        <section class="py-5">
-            <h1>Work Experience</h1>
+        <section class="experience">
+            <h2>Work Experience</h2>
           <ul class="timeline">
             <li class="timeline-item mb-5">
               <h5 class="fw-bold">Our company starts its operations</h5>
