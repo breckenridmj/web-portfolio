@@ -10,19 +10,22 @@ export const Experience = () => {
             <h2>Work Experience</h2>
           <ul class="timeline">
             <li class="timeline-item mb-5">
-              <h5 class="fw-bold">Our company starts its operations</h5>
-              <p class="text-muted mb-2 fw-bold">11 March 2020</p>
+              <h5 class="fw-bold">IT Database Administrator - <span>General Dynamics Information Technology</span></h5>
+              <p class="text-muted mb-2 fw-bold">January 2023 - Present<br/>Sierra Vista, Arizona</p>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur <br/>adipisicing elit. Sit
-                necessitatibus adipisci, ad alias, <br/>voluptate pariatur officia
-                repellendus repellat inventore fugit <br/>perferendis totam dolor
-                voluptas et corrupti distinctio maxime <br/>corporis optio?
+                • Resolved problems associated with SQL server and SharePoint system data
+                • Gathered data, designs formats, and created new programs or adjusted existing 
+                    programs as needed to create reports while documenting all changes
+                • Analyze and troubleshoot software database systems and performance problems 
+                    and accurately document actions taken
+                • Review quarterly Security Technical Implementation Guides (STIGs), remediate 
+                    open vulnerabilities and report compliance
               </p>
             </li>
         
             <li class="timeline-item mb-5">
-              <h5 class="fw-bold">First customer</h5>
-              <p class="text-muted mb-2 fw-bold">19 March 2020</p>
+              <h5 class="fw-bold">Mechanical Engineer</h5>
+              <p class="text-muted mb-2 fw-bold">January 2023 - Present<br/>Sierra Vista, Arizona</p>
               <p class="text-muted">
                 Quisque ornare dui nibh, sagittis egestas <br/>nisi luctus nec. Sed
                 aliquet laoreet sapien, eget pulvinar<br/> lectus maximus vel.

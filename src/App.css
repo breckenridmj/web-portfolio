@@ -478,6 +478,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-top: 60px;
 }
 
+span{
+  font-size: 20px;
+  font-weight: 1;
+  font-style: italic;
+}
+
 .timeline {
   border-left: 4px solid hsl(0, 0%, 90%);
   position: relative;
