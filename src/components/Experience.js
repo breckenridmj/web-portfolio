@@ -13,46 +13,56 @@ export const Experience = () => {
               <h5 class="fw-bold">IT Database Administrator - <span>General Dynamics Information Technology</span></h5>
               <p class="text-muted mb-2 fw-bold">January 2023 - Present<br/>Sierra Vista, Arizona</p>
               <p class="text-muted">
-                • Resolved problems associated with SQL server and SharePoint system data
-                • Gathered data, designs formats, and created new programs or adjusted existing 
-                    programs as needed to create reports while documenting all changes
-                • Analyze and troubleshoot software database systems and performance problems 
-                    and accurately document actions taken
-                • Review quarterly Security Technical Implementation Guides (STIGs), remediate 
+                • Resolved problems associated with SQL server and SharePoint system data<br/>
+                • Gathered data, designs formats, and created new programs or adjusted existing <br/>
+                programs as needed to create reports while documenting all changes<br/>
+                • Analyze and troubleshoot software database systems and performance problems <br/>
+                    and accurately document actions taken<br/>
+                • Review quarterly Security Technical Implementation Guides (STIGs), remediate <br/>
                     open vulnerabilities and report compliance
               </p>
             </li>
         
             <li class="timeline-item mb-5">
-              <h5 class="fw-bold">Mechanical Engineer</h5>
-              <p class="text-muted mb-2 fw-bold">January 2023 - Present<br/>Sierra Vista, Arizona</p>
+              <h5 class="fw-bold">Mechanical Engineer - <span>ISO Group</span></h5>
+              <p class="text-muted mb-2 fw-bold">August 2022 - December 2022<br/>Zoltbommel, Netherlands</p>
               <p class="text-muted">
-                Quisque ornare dui nibh, sagittis egestas <br/>nisi luctus nec. Sed
-                aliquet laoreet sapien, eget pulvinar<br/> lectus maximus vel.
-                Phasellus suscipit porta mattis.
+                • Proposed robotic solutions to technical and performance issues<br/>
+                • Ensured fabricated robots met all company standards<br/>
+                • Assist in verifications and hardware inspections to ensure the machine <br/>meets all technical 
+                specification <br/>
+                • Troubleshoot, diagnose, and correct malfunctions by modifications<br/>
+                • Maintained robots for automation of manufacturing processes<br/>
+                • Installation of the robotic machines and product instructions to clients
               </p>
             </li>
         
             <li class="timeline-item mb-5">
-              <h5 class="fw-bold">Our team exceeds 10 people</h5>
-              <p class="text-muted mb-2 fw-bold">24 June 2020</p>
+              <h5 class="fw-bold">Front End Web Developer - <span>Prive Wealth Club</span></h5>
+              <p class="text-muted mb-2 fw-bold">July 2021 - July 2022<br/>Richmond, Virginia</p>
               <p class="text-muted">
-                Orci varius natoque penatibus et magnis dis<br/> parturient montes,
-                nascetur ridiculus mus. Nulla ullamcorper <br/>arcu lacus, maximus
-                facilisis erat pellentesque nec. Duis et <br/>dui maximus dui aliquam
-                convallis. Quisque consectetur purus erat, <br/>et ullamcorper sapien
-                tincidunt vitae.
+                • Maintain websites and applications, including content updates, account <br/>administration, debugging, feature enhancements and documentations, <br/>testing, and regular upgrades to ensure web security and system usability.<br/>
+                • Identify current internet and website requirements, and participate in <br/>planning and execution of projects by organizing, scheduling, executing, <br/>and coordinating work assignments to achieve milestone deadlines.<br/>
+                • Support maintenance programming development for web pages and <br/>web applications.<br/>
+                • Research new web technologies, including software and hardware <br/>developments, and recommend purchases and changes in design, <br/>security, software, and hardware.
               </p>
             </li>
         
             <li class="timeline-item mb-5">
-              <h5 class="fw-bold">Earned the first million $!</h5>
-              <p class="text-muted mb-2 fw-bold">15 October 2020</p>
+              <h5 class="fw-bold">IT Help Desk Technician - <span>GPM Investments, LLC</span></h5>
+              <p class="text-muted mb-2 fw-bold">March 2021 - June 2021<br/>Richmond, Virginia</p>
               <p class="text-muted">
-                Nulla ac tellus convallis, pulvinar nulla ac, <br/>fermentum diam. Sed
-                et urna sit amet massa dapibus tristique non <br/>finibus ligula. Nam
-                pharetra libero nibh, id feugiat tortor rhoncus <br/>vitae. Ut suscipit
-                vulputate mattis.
+                • Assist in the architecture, implementation and maintenance of the <br/>organization's desktop infrastructure environments including installation, <br/>upgrades, high level troubleshooting, patching, and software deployment<br/>
+                • Install Windows 10 Base Image, crafting the operating system and GPO <br/>settings so that they integrate with all enterprise hardware and software.<br/>
+                • Serve as the first point of contact for customers seeking technical <br/>assistance over the phone or email<br/>
+                • Perform remote troubleshooting through diagnostic techniques and <br/>pertinent questions<br/>
+                • Determine the best solution based on the issue and details provided by <br/>customers<br/>
+                • Walk the customer through the problem-solving process<br/>
+                • Direct unresolved issues to the next level of support personnel<br/>
+                • Follow-up and update customer status and information<br/>
+                • Pass on any feedback or suggestions by customers to the appropriate <br/>internal team<br/>
+                • Identify and suggest possible improvements on procedures<br/>
+                • Manage inventory as well as warehouse, transportation, and other <br/>logistics processes
               </p>
             </li>
           </ul>
