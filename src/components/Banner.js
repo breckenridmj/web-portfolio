@@ -58,9 +58,10 @@ export const Banner = () => {
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{'Hi, Im Malcolm Breckenridge '}<br></br><span className="wrap">{text}</span></h1>
                                 <p> 
-                                    Highly motivated and enthusiastic software engineer with a background in Computer Science 
-                                    looking to utilize my coding skills to create meaningful software applications. Offering 
-                                    expertise in Java, HTML, C++, Node.js, JavaScript, and SQL databases. 
+                                    Malcolm is a highly motivated and enthusiastic software engineer with a background int Computer
+                                    Science from Virginia Commonwealth University. He has a passion for utilizing his coding skills
+                                    to create meaningful software and web applications. Offering expertise in Java, HTML, C++, JavaScript, 
+                                    and SQL databases. When not online, he loves outdoor activities and traveling.  
                                 </p>
                                 <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
                             </div>
