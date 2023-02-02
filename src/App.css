@@ -607,11 +607,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   z-index: 1;
   margin-top: -550px;
-  width: 50%;
+  width: 50px;
   height: 500px;
   padding: 0px;
   box-sizing: border-box;
-  border: 1px solid blue;
+  border-color: black;
 }
 
 .contact h2 {

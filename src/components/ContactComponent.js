@@ -36,7 +36,7 @@ export const ContactComponent = () => {
             <Container className="contact-bx">
             <h2> Contact Me! </h2>
                 <Row>
-                    <form action={sendEmail} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <Row className="new-email-bx">
                                 <span></span>
@@ -51,7 +51,7 @@ export const ContactComponent = () => {
                                 <br />
                                
                             </Row>
-                            <button className="sub" type="submit">SUBMIT</button>
+                            <button className="sub" type="submit" value="Send">SUBMIT</button>
                             <div className="row">{result ? <Result /> : null}</div>
                         </div>
                     </form>
