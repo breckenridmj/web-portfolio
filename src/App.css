@@ -644,7 +644,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 15px;
   width: 31%;
   height: 50px;
+  transition: 0.3s ease-in-out;
 }
+.contact-bx button {
+  z-index: 1;
+  position: relative;
+}
+.contact-bx button:hover {
+  opacity: 89%;
+}
+
+
 
 .new-email-bx::before {
   content: "";
