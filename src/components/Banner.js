@@ -55,7 +55,7 @@ export const Banner = () => {
                         <TrackVisibility>
                         {({isVisible}) =>
                             <div className={isVisible ? "animate_animated animate_fadeIn" : ""}>
-                                <span className="tagline">Welcome to my Portfolio</span>
+                                <span className="tagline">Welcome To My Portfolio</span>
                                 <h1>{'Hi, Im Malcolm Breckenridge '}<br></br><span className="wrap">{text}</span></h1>
                                 <p> 
                                     Malcolm is a highly motivated and enthusiastic software engineer with a background int Computer
