@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Container, Row } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
 
-export const Contact = () => {
 
-    export const ContactUs = () => {
+
+const Result = () => {
+    return(
+        <p> Your message has been successfully sent. I will contact you soon! </p>
+    )
+}
+
+export const ContactComponent= () => {
+
         const form = useRef();
-      
+        const [result, showResult] = useState(false);
+        
         const sendEmail = (e) => {
           e.preventDefault();
       
@@ -16,12 +23,16 @@ export const Contact = () => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
-            });
-        };
+            }
+        );
+        e.target.reset();
+        showResult(true);
+
+    };
 
     return (
         <section>
-            <Container className="contactForm">
+            <Container className="newsletter-bx wow slideInUp" id="contact">
                 <Row>
                     <form action="" onSubmit={sendEmail}>
                         <div>
@@ -39,6 +50,12 @@ export const Contact = () => {
                             <input className="input_form" type="text" name="email" required />
                             <br />
                             <span>Message</span>
+                            <br />
+                            <textarea name="message" required></textarea>
+                            <br />
+                            <button>SUBMIT</button>
+
+                            <div className="row">{result ? <Result /> : null}</div>
                         </div>
                     </form>
                 </Row>
