@@ -64,7 +64,7 @@ export const NavBar = () => {
 
                 {/*The container classes are flexbox classes that allow you to create a grid system.*/}
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand className="logo" href="#home">
                         {/*image*/}
                         <img src={logo} alt="Logo" />
                     </Navbar.Brand>
