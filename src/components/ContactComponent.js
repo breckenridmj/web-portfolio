@@ -5,56 +5,53 @@ import emailjs from '@emailjs/browser';
 
 
 const Result = () => {
-    return(
+    return (
         <p> Your message has been successfully sent. I will contact you soon! </p>
     )
 }
 
-export const ContactComponent= () => {
+export const ContactComponent = () => {
 
-        const form = useRef();
-        const [result, showResult] = useState(false);
-        
-        const sendEmail = (e) => {
-          e.preventDefault();
-      
-          emailjs.sendForm('service_1lh95gd', 'template_iavy4ys', form.current, 'QuwslZ9JhUtP7lW0I')
+    const form = useRef();
+    const [result, showResult] = useState(false);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_1lh95gd', 'template_iavy4ys', form.current, 'QuwslZ9JhUtP7lW0I')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             }
-        );
+            );
         e.target.reset();
         showResult(true);
 
     };
 
     return (
-        <section>
-            <Container className="newsletter-bx wow slideInUp" id="contact">
+        <section className="contact" id="connect">
+            
+            <Container className="contact-bx">
+            <h2> Contact Me! </h2>
                 <Row>
-                    <form action="" onSubmit={sendEmail}>
+                    <form action={sendEmail} onSubmit={sendEmail}>
                         <div>
-                            <h2> Contact Me! </h2>
-                            <span>Full Name</span>
-                            <br />
-                            <input className="input_form" type="text" name="fullName" required />
-                            <br />
-                            <span>Phone Number</span>
-                            <br />
-                            <input className="input_form" type="text" name="phone" required />
-                            <br />
-                            <span>Enter Email</span>
-                            <br />
-                            <input className="input_form" type="text" name="email" required />
-                            <br />
-                            <span>Message</span>
-                            <br />
-                            <textarea name="message" required></textarea>
-                            <br />
-                            <button>SUBMIT</button>
-
+                            <Row className="new-email-bx">
+                                <span></span>
+                                <input className="input_form" type="text" placeholder="Enter Full Name" name="fullName" required />
+                                <span></span>                          
+                                <input className="input_form" type="text" placeholder="Enter Phone Number" name="phone" required />
+                                <span></span>
+                                <input className="input_form" type="text" placeholder="Enter Email" name="email" required />
+                                
+                                <span></span>
+                                <textarea className="input_form" name="message" placeholder="Type message here..." required></textarea>
+                                <br />
+                               
+                            </Row>
+                            <button className="sub" type="submit">SUBMIT</button>
                             <div className="row">{result ? <Result /> : null}</div>
                         </div>
                     </form>

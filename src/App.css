@@ -526,7 +526,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /************ Contact Css ************/
-
+/*
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -537,7 +537,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
-  margin-bottom: 30px;
+  
 }
 .contact form input, .contact form textarea {
   width: 100%;
@@ -597,27 +597,80 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+*/
+/************ Contact Css ************/
+.contact-bx {
+  background-color: #fff;
+  border-radius: 55px;
+  text-align: center;
+  color: #121212;
+  position: relative;
+  z-index: 1;
+  margin-top: -110px;
+  width: 50%;
+  height: 500px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+.contact h2 {
+  font-size: 45px;
+	font-weight: 1000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contact .contact-bx .input_form {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 10px;
+  display:flexbox;
+  padding-bottom: 10px;
+  border-color: black;
+}
+
+.contact-bx button {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 18px;
+  margin-top: 15px;
+  width: 31%;
+  height: 50px;
+  
+}
+
+
+
 
 /************ Footer Css ************/
+/*
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 200px 0;
   background-color: #121212;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+.contact-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
-  padding: 85px 125px;
+  padding: 20px 0px;
   margin-bottom: 80px;
-  margin-top: -122px;
+  margin-top: -170px;
 }
-.newsletter-bx h3 {
-  font-weight: 700;
+.contact .contact-bx h2 {
+  font-weight: 7000;
   letter-spacing: 0.5px;
   line-height: 1.2em;
+  align-items: center;
 }
 .new-email-bx {
   background: #fff;
@@ -625,7 +678,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   position: relative;
   z-index: 0;
-  display: flex;
+  display:flexbox;
   align-items: center;
 }
 .new-email-bx::before {
@@ -676,3 +729,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+*/
