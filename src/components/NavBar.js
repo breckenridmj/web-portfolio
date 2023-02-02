@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 // import logo from assets folder
-import logo from '../assets/img/Dev_logo.png';
+import logo from '../assets/img/MTD_logo3.png';
 // import nav icons from assets folder
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';

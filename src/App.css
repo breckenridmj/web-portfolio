@@ -92,6 +92,11 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+nav.navbar img{
+  height: 100%;
+  width: 160%;
+  margin-left: -80px ;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
