@@ -480,29 +480,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url('./assets/img/footer-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 150px;
+  height: 1750px;
+  
 }
 
 .experience h2 {
+  color: white;
   font-size: 45px;
 	font-weight: 700;
   text-align: center;
-  padding-top: 60px;
+  padding: 50px;
+  
 }
 
 .experience span{
   font-size: 20px;
   font-weight: 1;
   font-style: italic;
+  text-align: center;
 }
 
 .timeline {
   border-left: 4px solid hsl(0, 0%, 90%);
-  position: relative;
   list-style: none;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: 440px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
 }
 
 .timeline .timeline-item {

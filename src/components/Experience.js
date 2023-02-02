@@ -7,7 +7,7 @@ export const Experience = () => {
     return (
        
         <section class="experience" id="experience">
-            <h2>Work Experience</h2>
+        <h2>Work Experience</h2>
           <ul class="timeline">
             <li class="timeline-item mb-5">
               <h5 class="fw-bold">IT Database Administrator - <span>General Dynamics Information Technology</span></h5>
