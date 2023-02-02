@@ -18,7 +18,7 @@ export const ContactComponent = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_1lh95gd', 'template_iavy4ys', form.current, 'QuwslZ9JhUtP7lW0I')
+        emailjs.sendForm('service_uzrldv4', 'template_iavy4ys', form.current, 'QuwslZ9JhUtP7lW0I')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
