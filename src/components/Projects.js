@@ -14,7 +14,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-    const projects = [
+    const project1 = [
         {
             title: "Educational DFA App",
             description: "Design & Development",
@@ -44,16 +44,76 @@ export const Projects = () => {
             title: "Nuclear Simulator GUI",
             description: "Design & Development",
             imgUrl: projImg6,
+        }
+    ];
+
+    const project2 = [
+        {
+            title: "Educational DFA App",
+            description: "Design & Development",
+            imgUrl: projImg1,
         },
         {
-            title: " GUI",
+            title: "Property Management Database",
+            description: "SQL Database & Queries",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Backend Admin Site",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+        {
+            title: "Robotics & Software",
+            description: "Installation",
+            imgUrl: projImg4,
+        },
+        {
+            title: "Cardless VCU App Design",
+            description: "Design & Development",
+            imgUrl: projImg5,
+        },
+        {
+            title: "Nuclear Simulator GUI",
             description: "Design & Development",
             imgUrl: projImg6,
-        },
-
-
-
+        }
     ];
+
+    const project3 = [
+        {
+            title: "Educational DFA App",
+            description: "Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Property Management Database",
+            description: "SQL Database & Queries",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Backend Admin Site",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+        {
+            title: "Robotics & Software",
+            description: "Installation",
+            imgUrl: projImg4,
+        },
+        {
+            title: "Cardless VCU App Design",
+            description: "Design & Development",
+            imgUrl: projImg5,
+        },
+        {
+            title: "Nuclear Simulator GUI",
+            description: "Design & Development",
+            imgUrl: projImg6,
+        }
+    ];
+
+    
 
     return (
         <section className="projects" id="project">
@@ -82,7 +142,7 @@ export const Projects = () => {
                                             <Tab.Pane eventKey="first">
                                                 <Row>
                                                     {
-                                                        projects.map((project, index) => {
+                                                        project1.map((project, index) => {
                                                             return (
                                                                 <ProjectCard
                                                                     key={index}
@@ -96,7 +156,7 @@ export const Projects = () => {
                                             <Tab.Pane eventKey="second">
                                             <Row>
                                                     {
-                                                        projects.map((project, index) => {
+                                                        project2.map((project, index) => {
                                                             return (
                                                                 <ProjectCard
                                                                     key={index}
@@ -110,7 +170,7 @@ export const Projects = () => {
                                             <Tab.Pane eventKey="third">
                                             <Row>
                                                     {
-                                                        projects.map((project, index) => {
+                                                        project3.map((project, index) => {
                                                             return (
                                                                 <ProjectCard
                                                                     key={index}
