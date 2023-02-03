@@ -498,6 +498,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 1;
   font-style: italic;
   text-align: center;
+  
+}
+
+.timeline .text {
+  color: white;
+  opacity: 50%;
 }
 
 .timeline {
@@ -511,6 +517,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .timeline .timeline-item {
   position: relative;
+  color: white;
 }
 
 .timeline .timeline-item:after {
