@@ -1,9 +1,14 @@
 import { ProjectCard } from "./ProjectCard";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/proj/DFA game.png";
+import projImg2 from "../assets/proj/PropertyManagementDB.png";
+import projImg3 from "../assets/proj/Trade Map dashboard pic.png";
+import projImg4 from "../assets/proj/iso-install.jpg";
+import projImg5 from "../assets/proj/figma.jpg";
+import projImg6 from "../assets/proj/nuclear.jpg";
+
+
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,35 +16,43 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
     const projects = [
         {
-            title: "Business Startup",
+            title: "Educational DFA App",
             description: "Design & Development",
             imgUrl: projImg1,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Property Management Database",
+            description: "SQL Database & Queries",
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
+            title: "Backend Admin Site",
             description: "Design & Development",
             imgUrl: projImg3,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Robotics & Software",
+            description: "Installation",
+            imgUrl: projImg4,
         },
         {
-            title: "Business Startup",
+            title: "Cardless VCU App Design",
             description: "Design & Development",
-            imgUrl: projImg2,
+            imgUrl: projImg5,
         },
         {
-            title: "Business Startup",
+            title: "Nuclear Simulator GUI",
             description: "Design & Development",
-            imgUrl: projImg3,
+            imgUrl: projImg6,
         },
+        {
+            title: " GUI",
+            description: "Design & Development",
+            imgUrl: projImg6,
+        },
+
+
+
     ];
 
     return (
