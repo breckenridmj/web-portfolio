@@ -7,6 +7,10 @@ import projImg3 from "../assets/proj/Trade Map dashboard pic.png";
 import projImg4 from "../assets/proj/iso-install.jpg";
 import projImg5 from "../assets/proj/figma.jpg";
 import projImg6 from "../assets/proj/nuclear.jpg";
+import projImg7 from "../assets/proj/rcproject.jpg";
+import projImg8 from "../assets/proj/dogsite.png";
+import projImg9 from "../assets/proj/walmartbot.png";
+import projImg10 from "../assets/proj/mcs.jpg";
 
 
 
@@ -49,67 +53,67 @@ export const Projects = () => {
 
     const project2 = [
         {
-            title: "Educational DFA App",
+            title: "Self Navigating Car Project",
             description: "Design & Development",
-            imgUrl: projImg1,
+            imgUrl: projImg7,
         },
         {
-            title: "Property Management Database",
-            description: "SQL Database & Queries",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Backend Admin Site",
+            title: "Business Startup",
             description: "Design & Development",
-            imgUrl: projImg3,
+            imgUrl: projImg8,
         },
         {
-            title: "Robotics & Software",
-            description: "Installation",
-            imgUrl: projImg4,
-        },
-        {
-            title: "Cardless VCU App Design",
+            title: "Walmart Self Checkout Bot",
             description: "Design & Development",
-            imgUrl: projImg5,
+            imgUrl: projImg9,
         },
         {
-            title: "Nuclear Simulator GUI",
-            description: "Design & Development",
-            imgUrl: projImg6,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
+        },
+        {
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
+        },
+        {
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         }
     ];
 
     const project3 = [
         {
-            title: "Educational DFA App",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         },
         {
-            title: "Property Management Database",
-            description: "SQL Database & Queries",
-            imgUrl: projImg2,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         },
         {
-            title: "Backend Admin Site",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         },
         {
-            title: "Robotics & Software",
-            description: "Installation",
-            imgUrl: projImg4,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         },
         {
-            title: "Cardless VCU App Design",
-            description: "Design & Development",
-            imgUrl: projImg5,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         },
         {
-            title: "Nuclear Simulator GUI",
-            description: "Design & Development",
-            imgUrl: projImg6,
+            title: "More Coming Soon!",
+            description: " ",
+            imgUrl: projImg10,
         }
     ];
 
