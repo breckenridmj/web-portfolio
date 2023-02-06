@@ -96,6 +96,13 @@ nav.navbar .logo img{
   width: 160%;
   margin-left: -60px;
 }
+
+@media (max-width: 800px) {
+  nav.navbar .logo img{
+    margin-left: -9px;
+  }
+}
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -480,7 +487,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url('./assets/img/footer-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1750px;
+  position: relative;
+  min-height: 1750px;
+  height: auto;
+  overflow: auto;
   
 }
 
@@ -616,7 +626,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #121212;
   position: relative;
   z-index: 1;
-  margin-top: -550px;
+  margin-top: -525px;
   width: 60%;
   height: 450px;
   padding: 0px;
@@ -629,6 +639,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 1000;
   text-align: center;
   padding-top: 30px;
+}
+
+@media (max-width: 800px) {
+  .contact h2 { 
+    display: inline-block;
+    color: white; 
+  }
+  
 }
 
 .contact .contact-bx .input_form {
@@ -693,7 +711,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   position: relative;
-  margin-top: 475px;
+  margin-top: 550px;
 }
 
 .footer img {
