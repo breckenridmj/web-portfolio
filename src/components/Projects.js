@@ -10,7 +10,7 @@ import projImg6 from "../assets/proj/nuclear.jpg";
 import projImg7 from "../assets/proj/rcproject.jpg";
 import projImg8 from "../assets/proj/dogsite.png";
 import projImg9 from "../assets/proj/walmartbot.png";
-import projImg10 from "../assets/proj/mcs.jpg";
+import projImg10 from "../assets/proj/mcs.png";
 
 
 
